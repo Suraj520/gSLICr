@@ -16,6 +16,7 @@ endif(APPLE)
 
 find_package(CUDA REQUIRED)
 find_package(OpenCV REQUIRED)
+find_package(gSLICr)
 
 include_directories(${CUDA_INCLUDE_DIRS})
 include_directories(${OpenCV_INCLUDE_DIRS})
